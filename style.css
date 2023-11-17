@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.spaces{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.spaces button{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 50px;
+    background: white;
+}
+
+.space0{
+    border-top: none;
+    border-left: none;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+}
+.space1{
+    border-top: none;
+    border-bottom: 3px solid;
+}
+.space2{
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+}
+.space3{
+    border-left: none;
+    border-right: 3px solid;
+}
+.space5{
+    border-right: none;
+    border-left: 3px solid;
+}
+.space6{
+    border-bottom: none;
+    border-left: none;
+    border-top: 3px solid;
+    border-right: 3px solid;
+}
+.space8{
+    border-bottom: none;
+    border-right: none;
+    border-top: 3px solid;
+    border-left: 3px solid;
+}
+.space7{
+    border-bottom: none;
+    border-top: 3px solid;
+}
+
+
+
+
+
+button:hover{
+    background: rgb(236, 236, 236);
+}
